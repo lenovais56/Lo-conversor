@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          LO CONVERSOR <b class="de">DE</b> MOEDAS
+        </h1>
+        <div class="caixaDe"></div>
+        <p class="page-subtitle">
+          Descubra os valores em real R$ e bitoin ₿
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+        <label for="moeda">Insira o valor em dolar</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Converter</button>
+        <h2 id="valorConvertidoEmDolar"></h2>
+
+        <label for="moeda">Insira o valor em euro</label><br>
+        <input type="number" id="valorEuro" size="2" /><br>
+        <button type="submit" onclick="ConverterEuro()">Converter</button>
+        <h2 id="valorConvertidoEmEuro"></h2>
+
+        <h2 id="bitcoin"></h2>
+
+
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>
