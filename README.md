@@ -32,4 +32,4 @@
 
 ## 💻 Acesse o site
 
-https://calculadora-de-m-dia.vercel.app/
+https://lo-conversor.vercel.app/
