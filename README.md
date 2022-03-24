@@ -1,6 +1,4 @@
-<h1 align="center" font-size="bold" color-font="red"> TrailerFlix </h1>
-
-# Lo conversor de moeda
+<h1 align="center" font-size="bold" color-font="red"> Lo conversor de moeda </h1>
 
 <p align="center">
   <img width="600" height="400" src="img/conversor.gif">
